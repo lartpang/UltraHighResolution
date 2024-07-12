@@ -31,7 +31,7 @@
 * **GID (Gaofen Image Dataset)** consists of two parts: a large-scale classification set and a fine land-cover classification set. The large-scale classification set contains 150 pixel-level annotated GF-2 images, and the fine classification set is composed of 30,000 multi-scale image patches coupled with 10 pixel-level annotated GF-2 images. The training and validation data with 15 categories is collected and re-labeled based on the training and validation images with 5 categories, respectively.
     * [Land-Cover Classification with High-Resolution Remote Sensing Images Using Transferable Deep Models](https://arxiv.org/abs/1807.05713), Remote Sensing of Environment 2020
     * [Dataset Home](https://x-ytong.github.io/project/GID.html)
-* **Five-Billion-Pixels**, a dataset extended on **GID**, has a spatial resolution of 4 m, covers areas more than 50,000 square kilometers in China, and contains more than 5 billion labeled pixels of 150 high-resolution Gaofen-2 (4 m) satellite images, annotated in a 24-category system covering artificial-constructed, agricultural, and natural classes.
+* **Five-Billion-Pixels/FBP**, a dataset extended on **GID**, has a spatial resolution of 4 m, covers areas more than 50,000 square kilometers in China, and contains more than 5 billion labeled pixels of 150 high-resolution Gaofen-2 (4 m) satellite images, annotated in a 24-category system covering artificial-constructed, agricultural, and natural classes.
     * [Enabling Country-Scale Land Cover Mapping with Meter-Resolution Satellite Imagery](https://www.sciencedirect.com/science/article/pii/S0924271622003264), ISPRS Journal of Photogrammetry and Remote Sensing 2023
 * **URUR (Ultra-High Resolution dataset with Ultra-Rich Context)** contains amounts of images with high enough resolution (3,008 images of size 5120×5120), a wide range of complex scenes (from 63 cities), rich-enough context (1 million instances with 8 categories) and fine-grained annotations (about 80 billion manually annotated pixels), which is far superior to all the existing UHR datasets including DeepGlobe, Inria Aerial, UDD, etc.
     * [Ultra-High Resolution Segmentation with Ultra-Rich Context: A Novel Benchmark](https://arxiv.org/abs/2305.10899), CVPR 2023
@@ -40,9 +40,15 @@
 ### Parallel Global-Local Branch
 
 * (**GLNet**) Collaborative Global-Local Networks for Memory-Efficient Segmentation of Ultra-High Resolution Images, CVPR 2019 Oral | [ArXiv](https://arxiv.org/abs/1905.06368) | [Code](https://github.com/VITA-Group/GLNet)
+* (**GRNet/PPN**) Patch Proposal Network for Fast Semantic Segmentation of High-Resolution Images, AAAI 2020 | [AAAI](https://cdn.aaai.org/ojs/6926/6926-13-10155-1-10-20200525.pdf)
 * (**WSDNet**) Ultra-High Resolution Segmentation with Ultra-Rich Context: A Novel Benchmark, CVPR 2023 | [ArXiv](https://arxiv.org/abs/2305.10899)
+* (**GeoAgent**) Seeing Beyond the Patch: Scale-Adaptive Semantic Segmentation of High-resolution Remote Sensing Imagery based on Reinforcement Learning, ArXiv 2309 | [ArXiv](https://arxiv.org/abs/2309.15372)
+* (**GPWFormer**) Guided patch-grouping wavelet transformer with spa366 tial congruence for ultra-high resolution segmentation, IJCAI 2023 | [ArXiv](https://arxiv.org/abs/2307.00711)
 
 ### Progressively Multi-Scale Contexts
 
-* (**FCtL**) From Contexts to Locality: Ultra-high Resolution Image Segmentation via Locality-aware Contextual Correlation, ICCV 2021 | [ArXiv](https://arxiv.org/pdf/2109.02580v3), [CVF](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_From_Contexts_to_Locality_Ultra-High_Resolution_Image_Segmentation_via_Locality-Aware_ICCV_2021_paper.pdf) | [Code](https://github.com/liqiokkk/FCtL)
 * (**CascadePSP**) Cascadepsp: Toward class-agnostic and very high-resolution segmentation via global and local refinement, CVPR 2020 | [ArXiv](https://arxiv.org/abs/2005.02551) | [Code](https://github.com/hkchengrex/CascadePSP)
+* (**FCtL**) From Contexts to Locality: Ultra-high Resolution Image Segmentation via Locality-aware Contextual Correlation, ICCV 2021 | [ArXiv](https://arxiv.org/pdf/2109.02580v3), [CVF](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_From_Contexts_to_Locality_Ultra-High_Resolution_Image_Segmentation_via_Locality-Aware_ICCV_2021_paper.pdf) | [Code](https://github.com/liqiokkk/FCtL)
+* (**MagNet**) Progressive Semantic Segmentation, CVPR 2021 | [ArXiv](https://arxiv.org/abs/2104.03778) | [Code](https://github.com/VinAIResearch/MagNet)
+* (**ISDNet**) ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-high Resolution Segmentation, CVPR 2022 | [CVF](https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_ISDNet_Integrating_Shallow_and_Deep_Networks_for_Efficient_Ultra-High_Resolution_CVPR_2022_paper.pdf) | [Code](https://github.com/cedricgsh/ISDNet)
+* (**EHSNet/ElegantSeg**) EHSNet: End-to-End Holistic Learning Network for Large-Size Remote Sensing Image Semantic Segmentation, ArXiv 2211 | [ArXiv](https://arxiv.org/abs/2211.11316)
